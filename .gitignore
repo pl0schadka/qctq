@@ -1,0 +1,51 @@
+# Arduino build files
+build/
+*.elf
+*.map
+*.bin
+
+# Arduino IDE
+*.ino.bak
+*.ino.old
+
+# Libraries
+libraries/
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.temp
+
+# Backup files
+*.backup
+*.bak
+
+# Node.js (for relay server)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment variables
+.env
+.env.local
+.env.production
+
+# Docker
+.dockerignore
+
+# Keep release files
+!releases/**/*.bin
+!releases/**/*.json
