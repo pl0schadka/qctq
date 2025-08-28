@@ -47,8 +47,8 @@ esptool.py --port /dev/tty.usbserial-110 --baud 115200 write_flash 0x0 build/qct
 ### Настройки в прошивке:
 ```cpp
 #define FIRMWARE_VERSION "2.0.0"
-const char* RELAY_SERVER = "http://84.201.179.109";
-const char* RELAY_SECRET = "8265903af2e71589c70ae97bdd23fc81";
+
+
 ```
 
 ### Relay сервер:
